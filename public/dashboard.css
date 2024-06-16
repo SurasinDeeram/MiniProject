@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; 
+  background-color: #1f1e1e;
+  background-color: black;
+    background: linear-gradient(135deg,
+            rgb(239, 247, 245)50%,
+            rgb(7, 11, 63)100%),
+        linear-gradient(to right, rgb(119, 117, 126) 0%, rgb(49, 7, 50) 100%);
+    box-shadow: inset 0 0 100px hsla(0, 0%, 0%, 0.3);
+    
+}
+
+.modal{
+  margin: 10%;
+}
+
+.modal-header{
+  width: 90%;
+  margin-left: 50px;
+  padding: 50px;
+}
+
+.col-md-3{
+  box-shadow: 2px 1px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f1e1e;
+  color: #fff;
+  padding: 10px 20px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 20px; 
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0; 
+  border: 1px solid #ccc; 
+}
+
+.search-body {
+  flex: 1; 
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 0 5px;
+}
+.button{
+  width: 15px;
+
+}
+
+/***************/
+
+
+
+/* container */
+.container{
+  padding: 5%;
+}
+
+/* CSS สำหรับการ์ด */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  height: 100%; /* ขนาดความสูงเท่ากับเนื้อหาภายใน */
+}
+
+.card-body {
+  padding: 10px;
+  height: 100%; /* ขนาดความสูงเท่ากับเนื้อหาภายใน */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* CSS สำหรับโมดอล */
+.modal-dialog {
+  max-width: 80%; /* ปรับขนาดโมดอลเท่ากับขนาดหน้าจอ */
+}
+
+.modal-content {
+  height: 100%; /* ขนาดความสูงเท่ากับเนื้อหาภายใน */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.modal-body {
+  font-size: 1rem;
+}
+
+/* ปุ่มสมัครงานในโมดอล */
+.modal-footer {
+  margin-top: 10px;
+  justify-content: flex-end;
+}
+
+.btn-apply {
+  background-color: #28a745;
+  color: #fff;
+}
+
+/* ปุ่มปิดโมดอล */
+.close-modal {
+  font-size: 2rem;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.btn-apply {
+  background-color: #28a745;
+  color: #fff;
+  padding: 5px 15px; /* ปรับขนาดของปุ่มตรงนี้ */
+  font-size: 0.9rem; /* ปรับขนาดตัวอักษรของปุ่ม */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-apply:hover {
+  background-color: #218838;
+}
+
+.search{
+  margin-top: 1%;
+  width: 50%;
+  margin: 1%;
+  padding: 1%;
+}
+
+.btn-logout{
+  background-color: rgb(117, 159, 145);
+  color: #000000;
+  font-size: 20px;
+  border: #000000;
+  border-radius: 10px;
+}
+.btn-logout:hover{
+  background-color: rgb(29, 48, 42);
+  color: #ccc;
+  font-size: 23px;
+}

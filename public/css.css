@@ -1,0 +1,40 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.card-img{
+  padding: 1%;
+  width: 500px;
+  text-align: center;
+}
+
+.txt-head{
+  padding: 20px;
+}
+
+.container-text{
+  padding: 50px;
+  margin-top: 1%;
+}
+
+.text-body{
+  display: grid;
+  grid-template-columns: (3,1fr);
+  margin-top: 5%;
+}
+
+.button{
+   font-size: 20px;
+   border-radius: 15px;
+   text-decoration: none;
+   color: cadetblue;
+   
+}
+.button:hover{
+   font-size: 23px;
+   border-radius: 15px;
+   text-decoration: none;
+   color: rgb(6, 69, 71);
+}
+

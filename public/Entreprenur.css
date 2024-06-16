@@ -1,0 +1,239 @@
+/* รูปแบบทั่วไปสำหรับหน้าเว็บ */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; 
+  background-color: #1f1e1e;
+}
+
+/* ส่วนด้านบนของหน้าเว็บ (Navbar) */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f1e1e;
+  color: #fff;
+  padding: 10px 20px; /* กำหนดระยะขอบของ Navbar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้ Navbar */
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 20px; /* กำหนดระยะห่างระหว่างรายการใน Navbar */
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* แบบฟอร์ม */
+.form-head {
+  margin: 20px;
+}
+
+.form-head-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.form-group-1 {
+  width: 50%;
+}
+
+.form-group {
+  margin-top: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+  display: block;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+/* ตำแหน่งตัวอย่าง Cascading Dropdown */
+h1 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+/* การแสดงจำนวนตัวอักษรที่เหลือ */
+#charCounter {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/**********ส่วน check************/
+
+.cyberpunk-checkbox {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #30cfd0;
+  border-radius: 5px;
+  background-color: transparent;
+  display: inline-block;
+  position: relative;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.cyberpunk-checkbox:before {
+  content: "";
+  background-color: #30cfd0;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.cyberpunk-checkbox:checked:before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.cyberpunk-checkbox-label {
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+}
+.cyberpunk-checkbox-label {
+  font-size: 18px;
+  color: #0d0d0d; /* เพิ่มสีข้อความที่คุณต้องการที่นี่ */
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+}
+
+
+/***************Button****************/
+
+.btn {
+  width: 7em;
+  height: 3em;
+  margin: 0.5em;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 0.625em;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: background 0.5s, color 0.5s; 
+}
+
+.btn:hover {
+  background: white; /* เปลี่ยนสีพื้นหลังเมื่อนำเมาส์เข้ามา */
+  color: black; /* เปลี่ยนสีข้อความเมื่อนำเมาส์เข้ามา */
+  box-shadow: 0 0 5px 1px black; /* เพิ่มเงาเมื่อนำเมาส์เข้ามา */
+}
+
+/* Entreprenur.css */
+
+/* Basic styles for the form */
+form {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+
+/* Style for form headings */
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Style for error messages */
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+/* styles.css */
+.navbar {
+    background-color: #333; /* Background color for the navbar */
+    color: #fff; /* Text color for the navbar */
+    padding: 10px; /* Add some padding to the navbar */
+    display: flex; /* Make the navbar items display horizontally */
+    justify-content: space-between; /* Space the logo and menu items evenly */
+}
+
+.logo {
+    font-size: 24px; /* Adjust the logo's font size */
+}
+
+ul {
+    list-style-type: none; /* Remove the default list bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Display the list items horizontally */
+}
+
+li {
+    margin-right: 20px; /* Add some spacing between menu items */
+}
+
+a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* Link color */
+    font-weight: bold; /* Make links bold */
+}
+
+a:hover {
+    color: #ff6600; /* Change link color on hover */
+}
+
+
+.form-head{
+  background-color: #ffffff;
+padding: 1%;
+  font-size: 25px;
+}
+
+.head-form{
+  width: 100%;
+}

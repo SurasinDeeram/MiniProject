@@ -1,0 +1,17 @@
+body{
+  padding: 10%;
+}
+
+.container{
+  text-align: center;
+  width: 50%;
+  margin-top: 5%;
+  border-radius: 15px;
+  box-shadow: 10px 5px 10px 5px rgb(84, 79, 79);
+}
+
+.con-head{
+  padding: 1%;
+  margin: 4px;
+  font-size: 20px;
+}
